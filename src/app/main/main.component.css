@@ -1,0 +1,223 @@
+.container {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+
+label {
+
+
+  color: white;
+
+
+}
+
+h1 {
+
+
+
+  color: white;
+
+
+
+}
+
+
+
+.principal {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: blue;
+
+  width: 100%;
+  width: 980px;
+  height: 440px;
+  border-radius: 20px;
+
+}
+
+.secundario {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: blue;
+  margin: 20px;
+  width: 100%;
+  width: 980px;
+  height: 440px;
+  border-radius: 20px;
+
+}
+
+.formulario {
+
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-left: 10px;
+  width: 500px;
+
+
+
+}
+
+::placeholder {
+
+
+  color: darkgrey;
+
+
+
+
+}
+
+.padrao {
+
+  padding: 10px;
+
+
+}
+
+.botao {
+
+  margin: 20px;
+  margin-left: 150px;
+  background-color: red;
+  color: white;
+  width: 200px;
+  height: 50px;
+  border: none;
+
+
+}
+
+table,
+th,
+td {
+
+  border: 10px solid white;
+  border-collapse: collapse;
+  width: 900px;
+  margin: 20px;
+  padding: 10px;
+  color: white;
+
+}
+
+
+@media screen and (max-width: 980px) {
+
+  .principal,
+  .secundario {
+
+    width: 100%;
+    margin: 20px;
+    height: 500px;
+
+
+  }
+
+  h1 {
+
+    width: 50%;
+
+  }
+
+  .formulario {
+
+
+    position: relative;
+    width: 80%;
+    margin: 20px;
+
+
+  }
+
+  .botao {
+
+    margin-left: 50px;
+
+
+  }
+
+  table,
+  th,
+  td {
+
+
+    width: 80%;
+
+
+
+  }
+
+
+
+}
+
+tr{
+
+color: white;
+
+
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+  .principal,
+  .secundario {
+
+    width: 100%;
+    margin: 20px;
+    height: 500px;
+
+
+  }
+
+  h1 {
+
+    width: 50%;
+
+  }
+
+  .formulario {
+
+
+    position: relative;
+    width: 80%;
+    margin: 20px;
+
+
+  }
+
+  .botao {
+
+    margin-left: 50px;
+
+
+  }
+
+  table,
+  th,
+  td {
+
+
+    width: 80%;
+
+
+
+  }
+
+
+
+}

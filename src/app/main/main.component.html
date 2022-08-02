@@ -1,0 +1,43 @@
+<div class="container">
+
+  <div class="principal">
+
+    <h1>Cadastro de Funcionários</h1>
+
+    <form class="formulario" id="formulario">
+      <label for="nome" class="padrao" id="label">Nome</label>
+      <input type="text" id="nome" class="padrao-barra" placeholder="Digite seu primeiro nome" required>
+      <label for="sobrenome" class="padrao" id="label">Sobrenome</label>
+      <input type="text" id="sobrenome" class="padrao-barra" placeholder="Digite seu sobrenome" required>
+      <label for="salario" class="padrao" id="label">Salário</label>
+      <input type="number" id="salario" class="padrao-barra" placeholder="Digite o salário" required>
+      <label for="setor" class="padrao" id="label">Setor</label>
+      <input type="text" id="setor" class="padrao-barra" placeholder="Digite o setor do funcionário" required>
+      <input type="button" value="Enviar" onclick="Enviar()" class="botao">
+    </form>
+
+  </div>
+
+  <div class="secundario">
+
+    <div class="tabela">
+
+      <table>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Sobrenome</th>
+            <th>Salário</th>
+            <th>Setor</th>
+            <th class="acao">Editar</th>
+            <th class="acao">Excluir</th>
+          </tr>
+        </thead>
+        <tbody id="body">
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+
+</div>
